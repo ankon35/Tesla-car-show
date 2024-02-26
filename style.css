@@ -87,3 +87,134 @@ nav{
     color: lightgray;
 }
 
+/* Slider section */
+
+.slider{
+    background: url("https://t3.ftcdn.net/jpg/05/00/59/20/360_F_500592051_wKXH8eZ1Te5OrMqBciEZdk8OrXgG0GW4.jpg");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 85%);
+    transition: 1s ease-in-out;
+    overflow: hidden;
+}
+
+.sliderWrapper{
+    display: flex;
+    width: 500vw;
+    transition: 1s ease-in-out;
+
+}
+
+.sliderItem{
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.sliderTitle{
+    position: absolute;
+    top: 17%;
+    right: 23%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.sliderPrice{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    color: white;
+   
+    font-weight: bold;
+    background: red;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+/* .sliderImg{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+} */
+
+
+.slidderButton{
+    position: absolute;
+    top: 60%;
+    right: 20%;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    z-index: 1;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.slidderButton:hover{
+    background-color: white;
+    color: black;   
+}
+
+.sliderImg{
+    height: 70vh;
+    z-index: 1;
+    transition: .5s ease-in-out;
+}
+
+.sliderImg:hover{
+    height: 75vh;
+}
+
+
+.sliderBg{
+    width: 650px;
+    height: 500px;
+    border-radius: 50%;
+    
+    position: absolute;
+}
+
+.sliderItem:nth-child(1) .sliderBg{
+    background-color: rgb(2, 158, 2);
+}
+
+
+
+
+.sliderItem:nth-child(2) .sliderBg{
+    background-color: rebeccapurple;
+}
+
+
+
+
+
+
+
+.sliderItem:nth-child(3) .sliderBg{
+    background-color: teal;
+}
+
+.sliderItem:nth-child(3) .sliderImg , 
+.sliderItem:nth-child(4) .sliderImg{
+    height: 60vh;
+}
+
+.sliderItem:nth-child(3) .sliderImg:hover, 
+.sliderItem:nth-child(4) .sliderImg:hover{
+    height: 65vh;
+    transition: .5s ease-in-out;
+}
+
+
+.sliderItem:nth-child(4) .sliderBg{
+    background-color: rgb(124, 115, 80);
+}
