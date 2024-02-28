@@ -10,7 +10,7 @@
 <body>
     
     <!-- Nav Section -->
-   <nav class="navWrapper">
+   <nav id="nav" >
     <div class="navTop">
         <h1>Ankon.</h1>
         <div class="searchBox">
@@ -42,7 +42,7 @@
             <div class="sliderBg"></div>
             <h1 class="sliderTitle">Tesla Model </br><span>X</span></h1>
             <h2 class="sliderPrice">$12500</h2>
-            <button class="slidderButton">Buy Now!</button>
+            <a href="#product"><button class="slidderButton">Buy Now!</button></a>
         </div>
 
         <div class="sliderItem">
@@ -50,7 +50,7 @@
             <div class="sliderBg"></div>
             <h1 class="sliderTitle">Tesla Model </br><span>Y</span></h1>
             <h2 class="sliderPrice">$12500</h2>
-            <button class="slidderButton">Buy Now!</button>
+            <a href="#product"><button class="slidderButton">Buy Now!</button></a>
         </div>
 
         <div class="sliderItem">
@@ -58,7 +58,7 @@
             <div class="sliderBg"></div>
             <h1 class="sliderTitle">Tesla Model </br><span>S</span></h1>
             <h2 class="sliderPrice">$12500</h2>
-            <button class="slidderButton">Buy Now!</button>
+            <a href="#product"><button class="slidderButton">Buy Now!</button></a>
         </div>
 
         <div class="sliderItem">
@@ -66,12 +66,243 @@
             <div class="sliderBg"></div>
             <h1 class="sliderTitle">Tesla Model </br><span>3</span></h1>
             <h2 class="sliderPrice">$12500</h2>
-            <button class="slidderButton">Buy Now!</button>
+            <a href="#product"><button class="slidderButton">Buy Now!</button></a>
         </div>
     </div>
    </div>
 
+   <!-- features section -->
+   <div class="features">
+        <div class="feature">
+            
+                <img src="ship.png" alt="" >
+                <div class="featureTitle">Free Shipping</div>
+                <div class="featureDesc">Free worldwide shipping world wide in the world</div>
+            
+        </div>
+        <div class="feature">
+            
+            <img src="return.png" alt="">
+            <div class="featureTitle">30 Days Return</div>
+            <div class="featureDesc">No question return and easy refund in 14days</div>
+        
+        </div>
+        <div class="feature">
+            
+            <img src="gift_card.png" alt="">
+            <div class="featureTitle">Gift Card</div>
+            <div class="featureDesc">Buy gift card and use cupon card esily</div>
+        
+        </div>
+        <div class="feature">
+            
+            <img src="contact.jpg" alt="">
+            <div class="featureTitle">Contact Us</div>
+            <div class="featureDesc">Keep in touch via email and support system </div>
+        
+    
+        </div>
+   </div>
 
+   <!-- Product Section -->
+
+   <div class="products" id="product">
+        <div class="product">
+            <div class="productImg">
+                <img src="model-x.png" alt="">
+            </div>
+           <div class="productDetails">
+                <h1 class="productTitle">Model-X</h1>
+                <h2 class="productPrice">$12500</h2>
+                <p class="productDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae molestias fugit aperiam ipsam inventore, consequuntur expedita, commodi nisi asperiores soluta eaque saepe maxime! Saepe iusto architecto sequi provident commodi.</p>
+           
+                 <div class="colors">
+                    <div class="color"></div>
+                    <div class="color"></div>
+                </div>
+                <button class="buyButton">
+                Buy Now!!
+                </button>
+        </div>
+
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label for="">Name and surname</label>
+            <input type="text" placeholder="Ankon Hossain" class="payInput">
+
+            <label for="">Phone Number</label>
+            <input type="text" placeholder="+880 1676 597334" class="payInput">
+
+            <label for="">Address</label>
+            <input type="text" placeholder="90-Harinal,Gazipur" class="payInput">
+
+            <h2 class="payTitle">Card Information </h2>
+                <div class="cardIcon">
+                    <img src="masterCard.jpg" width="60" alt="">
+                    <img src="visaCard.png" width="60" alt="">
+                </div>
+
+                <input type="password" placeholder="Card Number" class="payInput">
+
+                <div class="cardInfo">
+                    <input type="text" placeholder="mm" class="payInput sm">
+                    <input type="text" placeholder="yyyy" class="payInput sm">
+                    <input type="text" placeholder="cvv" class="payInput sm">
+                </div>
+            
+                <button class="payButton">Checkout</button>
+                
+                <span class="close">X</span>
+        </div>
+        </div>
+
+        <!-- Payment Information -->
+        
+
+   </div>
+
+<!-- 
+   Gallery Section -->
+
+   <div class="gallery">
+        <div class="galleryItem">
+            <h2 class="galleryTitle">Beyond Boundaries! </h2>
+            <img src="gallery-2.jpg" class="galleryImg" alt="">
+        </div>
+
+        <div class="galleryItem">
+            
+            <img src="gallery-4.jpg" class="galleryImg" alt="">
+
+            <h2 class="galleryTitle">Unleash Your Spark! </h2>
+        </div>
+
+        <div class="galleryItem">
+            <h2 class="galleryTitle">Where Creativity Meets Connectivity! </h2>
+            <img src="gallery-3.jpg" class="galleryImg" alt="">
+        </div>
+
+   </div>
+
+   <div class="newSeason">
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/10549259/pexels-photo-10549259.jpeg" alt="" class="nsImg">
+
+        </div>
+
+        <div class="nsItem">
+            <h3 class="nsTitleSm">Fresh Perspectives, Bright Futures</h3>
+            <h1 class="nsTitle"> Exploring Tesla's Design</h1>
+            <h1 class="nsTitle">Embracing Change, Inspiring Progress</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOU CAR</button>
+            </a>
+        </div>
+
+        <div class="nsItem">
+            <img src="https://images.pexels.com/photos/14674461/pexels-photo-14674461.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="nsImg">
+        </div>
+   </div>
+
+   <!-- footer Section -->
+
+   <footer>
+        <div class="footer">
+            <div class="footerLeft">
+                
+                <div class="footerMenu">
+                    <h1 class="fMenuTitle">
+                        About Us
+                    </h1>
+                    <ul class="fMenuList">
+                        <li class="fListItem">
+                            Company
+                        </li>
+                        <li class="fListItem">
+                            Conatct
+                        </li>
+                        <li class="fListItem">
+                            Career 
+                        </li>
+                        <li class="fListItem">
+                            Affiliate
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footerMenu">
+                    <h1 class="fMenuTitle">
+                        Links
+                    </h1>
+                    <ul class="fMenuList">
+                        <li class="fListItem">
+                            Support
+                        </li>
+                        <li class="fListItem">
+                            FAQ
+                        </li>
+                        <li class="fListItem">
+                            Feedback 
+                        </li>
+                        <li class="fListItem">
+                            Stories
+                        </li>
+                    </ul>
+    
+                    
+                </div>
+    
+                <div class="footerMenu">
+                    <h1 class="fMenuTitle">
+                        Products
+                    </h1>
+                    <ul class="fMenuList">
+                        <li class="fListItem">
+                            Model-X
+                        </li>
+                        <li class="fListItem">
+                            Model-y
+                        </li>
+                        <li class="fListItem">
+                            Model-S
+                        </li>
+                        <li class="fListItem">
+                            Model-3
+                        </li>
+                    </ul>
+    
+                    
+                </div>
+    
+            </div>
+    
+            <div class="footerRight">
+                <div class="footerRightMenu">
+                    <h3 class="fmenuTitle">Subscribe To our newsletter</h>
+                    <div class="fMail">
+                        <input type="text" placeholder="you@gmail.com" class="fInput">
+                        <button class="fButton">Join</button>
+                    </div>
+                </div>
+
+                <div class="footerRightMenu">
+                    <h1 class="fmenuTitle">Follow Us</h1>
+                    <div class="fIcons">
+                        <img src="facebook.png" alt="">
+                        <img src="insta.jfif" alt="">
+                        <img src="twitter.png" alt="">
+                    </div>
+                </div>
+
+                <div class="footerRightMenu">
+                    <span class="copyright">
+                        @Ankon Hossain. All rights reserved. 2024.
+                    </span>
+                </div>
+            </div>
+        </div>
+   </footer> 
+   
 
     <!-- js section -->
     <script src="app.js"></script>
